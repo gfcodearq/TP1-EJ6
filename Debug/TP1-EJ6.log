@@ -1,0 +1,19 @@
+﻿  actor.cpp
+C:\Users\ferna\source\repos\TP1-EJ6\actor.cpp(11,30): error C2440: '=': no se puede realizar la conversión de 'const b2AABB' a 'b2AABB *'
+C:\Users\ferna\source\repos\TP1-EJ6\actor.cpp(11,27): message : No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+C:\Users\ferna\source\repos\TP1-EJ6\actor.cpp(28,24): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  juego.cpp
+C:\Users\ferna\source\repos\TP1-EJ6\juego.cpp(11,25): warning C4244: 'argumento': conversión de 'float' a 'unsigned int'; posible pérdida de datos
+C:\Users\ferna\source\repos\TP1-EJ6\juego.cpp(48,53): error C2664: 'b2Fixture *b2Body::CreateFixture(const b2Shape *,float)': el argumento 1 no puede convertirse de 'b2FixtureDef **' a 'const b2FixtureDef *'
+C:\Users\ferna\source\repos\TP1-EJ6\juego.cpp(48,40): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Libs\box2d\include\box2d\b2_body.h(138,13): message : vea la declaración de 'b2Body::CreateFixture'
+C:\Users\ferna\source\repos\TP1-EJ6\juego.cpp(65,31): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\ferna\source\repos\TP1-EJ6\juego.cpp(66,30): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\ferna\source\repos\TP1-EJ6\juego.cpp(67,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\ferna\source\repos\TP1-EJ6\juego.cpp(68,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\ferna\source\repos\TP1-EJ6\juego.cpp(69,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\ferna\source\repos\TP1-EJ6\juego.cpp(70,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\ferna\source\repos\TP1-EJ6\juego.cpp(78,57): error C2664: 'b2Fixture *b2Body::CreateFixture(const b2Shape *,float)': el argumento 1 no puede convertirse de 'b2FixtureDef **' a 'const b2FixtureDef *'
+C:\Users\ferna\source\repos\TP1-EJ6\juego.cpp(78,43): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Libs\box2d\include\box2d\b2_body.h(138,13): message : vea la declaración de 'b2Body::CreateFixture'
+  Generando código...
